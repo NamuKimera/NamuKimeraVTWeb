@@ -1527,8 +1527,8 @@ nav li a:hover {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px; /* Limitar el ancho máximo */
+    width: auto;
+    max-width: 900px; /* Limitar el ancho máximo */
 }
 
 .close {
@@ -1549,15 +1549,15 @@ nav li a:hover {
 }
 
 .interior-section {
-    background-color: #828b2e; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #68695b; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
     margin: 20px 0; /* Margen superior e inferior */
 }
     
 .content-block {
     margin-top: 15px; /* Espacio entre bloques de contenido */
     padding: 5px; /* Espaciado interno */
-    border: 1px solid #0004ff; /* Borde */
-    border-radius: 5px; /* Bordes redondeados */
+    border: 0.5px solid #0004ff; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
 }
