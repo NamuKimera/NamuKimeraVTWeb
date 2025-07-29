@@ -1447,7 +1447,7 @@ nav {
 nav ul {
   list-style-type: none;
   margin: 10;
-  padding: 5;
+  padding: 10;
 }
 
 nav li {
@@ -1458,7 +1458,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 18px;
   text-decoration: none;
 }
 
@@ -1467,48 +1467,52 @@ nav li a:hover {
   color: black;
 }
 
-  .faq {
+.faq {
     width: 80%;
     margin: 0 auto;
-  }
-  .faq h2 {
+}
+.faq h2 {
     text-align: center;
-  }
-  .faq dl {
+}
+
+.faq dl {
     margin: 20px 0;
-  }
-  .faq dt {
+}
+
+.faq dt {
     font-weight: bold;
     margin-bottom: 5px;
     cursor: pointer;
-  }
-  .faq dd {
+}
+
+.faq dd {
     margin-left: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: none; /* Ocultar respuestas por defecto */
-  }
-  .faq dt:focus-within + dd, .faq dt:hover + dd {
+}
+
+.faq dt:focus-within + dd, .faq dt:hover + dd {
     display: block; /* Mostrar respuestas al hacer hover o focus */
-  }
+}
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .gallery img {
+.gallery img {
     width: 200; /* Ajusta el tamaño de las imágenes */
     height: auto;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 5px;
     box-sizing: border-box; /* Importante para que no se desborden */
-  }
+}
 
-  .modal {
+.modal {
     display: none; /* Inicialmente oculto */
     position: fixed; /* Fijo en la pantalla */
     z-index: 1; /* Encima de todo */
@@ -1518,16 +1522,16 @@ nav li a:hover {
     height: 100%;
     overflow: auto; /* Habilitar scroll si la imagen es muy grande */
     background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
-  }
+}
 
-  .modal-content {
+.modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px; /* Limitar el ancho máximo */
-  }
+}
 
-  .close {
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -1535,11 +1539,25 @@ nav li a:hover {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
+}
 
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.interior-section {
+    background-color: #828b2e; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+    
+.content-block {
+    margin-top: 15px; /* Espacio entre bloques de contenido */
+    padding: 5px; /* Espaciado interno */
+    border: 1px solid #0004ff; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
 }
