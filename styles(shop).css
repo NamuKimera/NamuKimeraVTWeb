@@ -1369,6 +1369,88 @@ form .actions button:disabled {
     transition: fill 0.25s ease, stroke 0.25s ease;
 }
 
+#main > .inner > * > .full {
+    margin-left: calc(-1.5rem);
+    max-width: calc(100% + 3rem + 0.4725px);
+    width: calc(100% + 3rem + 0.4725px);
+}
+
+#main > .inner > * > .full.screen {
+    margin-left: -50vw;
+}
+
+#main > .inner > header > .full:first-child {
+    margin-top: -0rem !important;
+}
+
+#main > .inner > footer > .full:last-child {
+    margin-bottom: -0rem !important;
+}
+
+.buttons.style1 {
+    gap: 0rem;
+}
+
+#container01 > .wrapper > .inner {
+    --gutters: 0rem;
+    --padding-horizontal: 0rem;
+    --padding-vertical: 0rem;
+    --spacing: 0rem;
+}
+
+#text05 {
+    font-size: 1em;
+}
+
+#text06 {
+    font-size: 1em;
+}
+
+#text03 {
+    font-size: 1em;
+}
+
+#text07 {
+    font-size: 1em;
+}
+
+#text01 {
+    font-size: 1em;
+}
+
+#text02 {
+    font-size: 1em;
+}
+
+#icons01 {
+    gap: 0.5625rem;
+}
+
+body {
+    overflow: auto !important;
+}
+
+#main {
+    opacity: 1.0 !important;
+    transform: none !important;
+    transition: none !important;
+    filter: none !important;
+}
+
+#main > .inner > section {
+    opacity: 1.0 !important;
+    transform: none !important;
+    transition: none !important;
+    filter: none !important;
+}
+
+#container01 {
+    position: fixed !important;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+
 @media (max-width: 1920px) {
 }
 
@@ -1693,86 +1775,4 @@ form .actions button:disabled {
         --padding-vertical: 0rem;
         --spacing: 0.84375rem;
     }
-}
-
-#main > .inner > * > .full {
-    margin-left: calc(-1.5rem);
-    max-width: calc(100% + 3rem + 0.4725px);
-    width: calc(100% + 3rem + 0.4725px);
-}
-
-#main > .inner > * > .full.screen {
-    margin-left: -50vw;
-}
-
-#main > .inner > header > .full:first-child {
-    margin-top: -0rem !important;
-}
-
-#main > .inner > footer > .full:last-child {
-    margin-bottom: -0rem !important;
-}
-
-.buttons.style1 {
-    gap: 0rem;
-}
-
-#container01 > .wrapper > .inner {
-    --gutters: 0rem;
-    --padding-horizontal: 0rem;
-    --padding-vertical: 0rem;
-    --spacing: 0rem;
-}
-
-#text05 {
-    font-size: 1em;
-}
-
-#text06 {
-    font-size: 1em;
-}
-
-#text03 {
-    font-size: 1em;
-}
-
-#text07 {
-    font-size: 1em;
-}
-
-#text01 {
-    font-size: 1em;
-}
-
-#text02 {
-    font-size: 1em;
-}
-
-#icons01 {
-    gap: 0.5625rem;
-}
-
-body {
-    overflow: auto !important;
-}
-
-#main {
-    opacity: 1.0 !important;
-    transform: none !important;
-    transition: none !important;
-    filter: none !important;
-}
-
-#main > .inner > section {
-    opacity: 1.0 !important;
-    transform: none !important;
-    transition: none !important;
-    filter: none !important;
-}
-
-#container01 {
-    position: fixed !important;
-    z-index: 99;
-    top: 0;
-    left: 0;
 }
