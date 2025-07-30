@@ -190,6 +190,18 @@ a {
     padding: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
 }
 
+#wrapper02 {
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: center;
+    z-index: 2;
+    padding: 5px;
+}
+
 #main {
     --alignment: left;
     --flex-alignment: flex-start;
