@@ -1451,6 +1451,35 @@ body {
     left: 0;
 }
 
+
+nav {
+  background-color: #00ffff;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 @media (max-width: 1920px) {
 }
 
