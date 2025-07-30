@@ -1579,8 +1579,6 @@ nav li a:hover {
 .section {
     width: 45%; /* Ajusta el ancho de las secciones */
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 .section h2 {
