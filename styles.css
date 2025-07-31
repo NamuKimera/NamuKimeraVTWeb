@@ -1511,12 +1511,13 @@ nav li a:hover {
 
 .gallery {
     display: flex;
+    border: 1px solid #ccc;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .gallery img {
-    width: 200; /* Ajusta el tamaño de las imágenes */
+    width: 200px; /* Ajusta el tamaño de las imágenes */
     height: auto;
     margin: 10px;
     border: 1px solid #ccc;
@@ -1539,8 +1540,8 @@ nav li a:hover {
 .modal-content {
     margin: auto;
     display: block;
-    width: auto;
-    max-width: 900px; /* Limitar el ancho máximo */
+    width: 80%;
+    max-width: 700px; /* Limitar el ancho máximo */
 }
 
 .close {
