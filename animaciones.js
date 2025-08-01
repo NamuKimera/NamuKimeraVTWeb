@@ -1,0 +1,1 @@
+const contenido = document.getElementById("content");
