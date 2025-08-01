@@ -6,4 +6,6 @@ Bienvenido al codigo de mi sitio web, lo puedes usar para crear el tuyo, eso si,
 
 # NO PUEDES
 
-- copiar la pagina web tal cual
+- Copiar la pagina web tal cual.
+
+- Usar los mismos archivos del repositorio, excepto index.html
