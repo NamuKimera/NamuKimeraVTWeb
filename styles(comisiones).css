@@ -1111,3 +1111,60 @@ nav li a:hover {
   background-color: #ddd;
   color: black;
 }
+
+.interior-section {
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 8px 0; /* Margen superior e inferior */
+}
+
+.content-block {
+    margin-top: 15px; /* Espacio entre bloques de contenido */
+    padding: 5px; /* Espaciado interno */
+    border: 0.5px solid #0004ff; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.column {
+    flex: 1; /* Cada columna ocupa el mismo espacio */
+    margin: 10px; /* Espacio entre columnas */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribuye el contenido */
+    padding: 20px;
+}
+
+.section {
+    width: 45%; /* Ajusta el ancho de las secciones */
+    padding: 10px;
+}
+
+.section h2 {
+    color: #333; /* Color del título */
+    margin-bottom: 10px;
+}
+
+.section p {
+    line-height: 1.6; /* Espacio entre líneas */
+    color: #555; /* Color del texto */
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c; /* Color del precio */
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section li {
+    margin-bottom: 5px;
+}
