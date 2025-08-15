@@ -1006,30 +1006,6 @@ body {
         min-height: 100% !important;
         width: 100% !important;
     }
-
-    #divider01:not(:first-child) {
-        margin-top: 2rem !important;
-    }
-
-    #divider01:not(:last-child) {
-        margin-bottom: 2rem !important;
-    }
-
-    #divider01:before {
-        width: 44rem;
-    }
-
-    #divider03:not(:first-child) {
-        margin-top: 0.875rem !important;
-    }
-
-    #divider03:not(:last-child) {
-        margin-bottom: 0.875rem !important;
-    }
-
-    #divider03:before {
-        width: 44rem;
-    }
     #form02 label:first-child {
         font-size: 1em;
         line-height: 1.5;
@@ -1054,19 +1030,6 @@ body {
         font-size: 0.625em;
         letter-spacing: 0.225rem;
         padding-left: calc(0.225rem + 0.5rem);
-    }
-
-    #icons01 {
-        font-size: 1em;
-        gap: 0.75rem;
-    }
-
-    #icons01:not(:first-child) {
-        margin-top: 1.125rem !important;
-    }
-
-    #icons01:not(:last-child) {
-        margin-bottom: 1.125rem !important;
     }
 }
 
