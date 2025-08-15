@@ -286,18 +286,18 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     font-weight: 200;
 }
 
-#text06 {
+#text04 {
     letter-spacing: 0.021875rem;
     width: calc(100% + 0.021875rem);
     font-size: 1em;
     line-height: 1.875;
 }
 
-#text06 {
+#text04 {
     font-size: 1em;
 }
 
-#text06 {
+#text04 {
     text-align: center;
     color: #000000;
     font-family: 'Source Sans Pro', sans-serif;
@@ -308,52 +308,18 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     font-weight: 200 bold;
 }
 
-#text06 a:hover {
+#text04 a:hover {
     color: #309EDB;
 }
 
-#text06 a {
+#text04 a {
     text-decoration: underline;
 }
 
-#text06 span.p:nth-child(n + 2) {
+#text04 span.p:nth-child(n + 2) {
     margin-top: 1rem;
 }
 
-#text05:not(:first-child) {
-    margin-top: 1rem !important;
-}
-
-#text05:not(:last-child) {
-    margin-bottom: 1rem !important;
-}
-
-#text05 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #6b6767;
-    font-family: 'Sora', sans-serif;
-    font-size: 1.25em;
-    line-height: 1;
-    font-weight: 700;
-}
-
-#text05 mark {
-    color: #FFFFFF;
-    background-color: transparent;
-}
-
-#text05 a {
-    text-decoration: none;
-}
-
-#text05 a:hover {
-    text-decoration: underline;
-}
-
-#text05 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
-}
 
 #text01:not(:first-child) {
     margin-top: 1rem !important;
@@ -387,41 +353,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text01 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
-}
-
-#text04:not(:first-child) {
-    margin-top: 0.25rem !important;
-}
-
-#text04:not(:last-child) {
-    margin-bottom: 0.25rem !important;
-}
-
-#text04 {
-    text-align: center;
-    text-transform: lowercase;
-    color: #00ccff;
-    font-family: 'Sora', sans-serif;
-    font-size: 0.875em;
-    line-height: 1;
-    font-weight: 400;
-}
-
-#text04 mark {
-    color: #FFFFFF;
-    background-color: transparent;
-}
-
-#text04 a {
-    text-decoration: none;
-}
-
-#text04 a:hover {
-    text-decoration: underline;
-}
-
-#text04 span.p:nth-child(n + 2) {
     margin-top: 1rem;
 }
 
