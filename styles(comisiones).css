@@ -39,18 +39,6 @@ mark {
     color: inherit
 }
 
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0
-}
-
-input[type="text"],input[type="email"],select,textarea {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -ms-appearance: none;
-    appearance: none
-}
-
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -202,54 +190,6 @@ a {
     padding: 5px;
 }
 
-#main {
-    --alignment: left;
-    --flex-alignment: flex-start;
-    --indent-left: 1;
-    --indent-right: 0;
-    --border-radius-tl: 0.25rem;
-    --border-radius-tr: 0.25rem;
-    --border-radius-br: 0.25rem;
-    --border-radius-bl: 0.25rem;
-    align-items: center;
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
-    justify-content: center;
-    max-width: 100%;
-    position: relative;
-    text-align: var(--alignment);
-    z-index: 1;
-    background-color: transparent;
-    border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
-    transform: perspective(1000px) rotateY(0deg);
-    transform-origin: 50% 50%;
-    transition: opacity 0.75s ease 0s,transform 0.75s ease 0s;
-}
-
-#main > .inner {
-    --padding-horizontal: 3rem;
-    --padding-vertical: 0rem;
-    --spacing: 0rem;
-    --width: 32rem;
-    border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
-    max-width: 100%;
-    position: relative;
-    width: var(--width);
-    z-index: 1;
-    padding: var(--padding-vertical) var(--padding-horizontal);
-}
-
-#main > .inner > * {
-    margin-top: var(--spacing);
-    margin-bottom: var(--spacing);
-}
-
-#main > .inner > .full {
-    margin-left: calc(var(--padding-horizontal) * -1);
-    max-width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
-    width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
-}
 
 body.is-loading #main {
     opacity: 0;
